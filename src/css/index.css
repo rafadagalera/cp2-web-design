@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    list-style: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 40px;
+}
+
+.header__div--top{
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__infos{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+
+    color: #000000;
+
+}
+
+.header__info--location{
+    display: flex;
+    align-items: center;
+}
+
+.header__info--location > p{
+    color: #000000;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.header__info--phone{
+    display: flex;
+    align-items: center;
+}
+
+.header__info--phone > p{
+    color: #000000;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+input{
+    height: 30px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #30aaa0;
+
+    font-size: 16px;
+
+    height: 30px;
+
+    padding: 4px 40px;
+    border-radius: 3px;
+}
+
+.header__div--bottom{
+    height: 140px;
+}
+
+.header__img--logo{
+    margin-top: 40px;
+}
+
+.header__img--logo-main{
+    margin-bottom: 30px;
+}
+
+.body__nav{
+    padding: 0 40px;
+
+    height: 50px;
+
+    background-color: #1e1b54;
+
+    position: sticky;
+
+    top: 0;
+}
+
+.body__nav--list{
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body__nav--list-item{  
+    height: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+
+    border-right: 1px solid #757575;
+}
+
+.not-border{
+    border: none;
+}
+
+span{
+    font-weight: 600;
+}
+
+main{
+    background-image: url("../assets/icr-banner-home.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+        height: 685px;
+}
+
+.footer__infos__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #1e1b54;
+
+    height: 250px;
+}
+
+.footer__contatos--list{
+    display: flex;
+
+    gap: 10px;
+}
+
+.img__loja{
+    width: 100px;
+}
+
+.footer__reserverd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+    background-color: #80b2ad;
+}
+
+.footer__reserverd > p{
+    font-size: 13px;
+}
