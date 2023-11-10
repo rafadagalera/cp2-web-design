@@ -121,6 +121,10 @@ span{
     font-weight: 600;
 }
 
+.div_inicio{
+    background-image: ("https://icr.usp.br/wp-content/uploads/2017/11/breadcumbs_bg.png");
+}
+
 main{
     background-image: url("../assets/icr-banner-home.jpg");
     background-repeat: no-repeat;
